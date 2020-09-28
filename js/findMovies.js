@@ -25,6 +25,8 @@ console.log(findMovies(180, [210, 90, 120])); // false
 console.log(findMovies(180, [210, 90, 120, 90])); // true
 console.log(findMovies(180, [180, 90, 120])); // false
 
+//! Something is wrong - they do not match in results
+
 function movieFind(time, movieLengths) {
   if (movieLengths.length < 2) {
     return false;
