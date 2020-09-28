@@ -55,3 +55,7 @@ console.log(movieFind(190, [60, 210, 90, 120])); // false
 console.log(movieFind(180, [210, 90, 120])); // false
 console.log(movieFind(180, [210, 90, 120, 90])); // true
 console.log(movieFind(180, [180, 90, 120])); // false
+
+// * 3 Draw out the two types of Hash maps
+// open addressing vs separate chaining
+// https://imgbox.com/O2G8wTlJ
